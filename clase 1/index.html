@@ -1,0 +1,151 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>primera página</title>
+    </head>
+    <body>
+      hola mundo!!
+      <p>Lorem ipsum dolor sit amet</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+      <a href="https://open.spotify.com/" target="_blank"> haga click aquí</a>
+      <h1>título 1</h1>
+      <h2>título 2</h2>
+      <h2>título 2</h2>
+      <h3>título 3</h3>
+      <h3>título 3</h3>
+      <h3>título 3</h3>
+      <h6>no se debe saltar del h3 al h6</h6>
+      <a href=""><img src="https://phantom-marca.unidadeditorial.es/5f35dc7ba0a175d12db238a6c6e8d549/resize/1320/f/jpg/assets/multimedia/imagenes/2022/02/24/16456899624763.jpg" alt="perro" width="100px"/></a>
+      <div>sección genérica</div>
+      <header>cabecera
+        <nav>
+            <ul>
+                <li><a href="">premium - el atributo href sí que puede ir así</a></li>
+                <a href="">
+                    <li>asistencia el atributo href NO puede ir así</li>
+                </a>
+                <li>descargar</li>
+                <li>registrarse</li>
+                <li>iniciar sesión</li>
+            </ul>
+        </nav>
+      </header>
+      <main>
+          <section>
+            <h2>Título</h2>
+            <article>
+                <h3>descargar música</h3>
+                <img src="https://phantom-marca.unidadeditorial.es/5f35dc7ba0a175d12db238a6c6e8d549/resize/1320/f/jpg/assets/multimedia/imagenes/2022/02/24/16456899624763.jpg" alt="perro"/>
+                <p>texto</p>
+            </article>
+          </section>
+          <aside>cosas sin importancia</aside>
+      </main>
+      <footer>pie de página</footer>
+      <nav>
+        <ol>
+            <li>Toponimia
+                <ol>
+                    <li>Origen</li>
+                    <li>Evolución</li>
+                    <li>Uso
+                    <ol>
+                        <li>uno</li>
+                        <li>dos</li>
+                        <li>tres</li>
+                    </ol>
+                    </li>   
+                </ol>
+            </li>
+            <li>Historia</li>
+            <li>Política y administración</li>
+        </ol>
+      </nav>
+      <div>texto</div>
+      <div>
+        <p>Lorem ipsum dolor sit amet si amet <span>texto especial</span></p>
+      </div>
+      <strong>texto en negrita</strong>
+      <em>texto en itálica</em>
+
+      <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>Pérez</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>López</td>
+        </tr>
+      </table>
+      <img src="./images/kittie.jpg" alt="gatito" width="150px">
+
+      <!-- el method puede tener post y get -->
+      <form action="" method="">
+        <fieldset>
+            <legend>datos personales</legend>
+
+            <label for="name">nombre</label>
+            <input type="text" 
+            placeholder="indica nombre" 
+            name="nombrePersona" 
+            id="name"
+            minlength="3"
+            maxlength="10"
+            required
+            pattern="[A-Za-z]" 
+            />
+
+            <input type="number" 
+            placeholder="number"
+            min="1"
+            max="100"
+            pattern="[0-9]{1,2}"
+             />
+
+            <input type="date" /><br />
+
+            <input type="radio" name="playa" value="1"/> Si
+            <input type="radio" name="playa" value="0"/> No
+
+            <br />
+
+            <input type="checkbox" name="menú" value="1" /> Gluten
+            <input type="checkbox" name="menú" value="0" /> Tomate
+
+            <input type="email" /> <br />
+            <input type="password" 
+            placeholder="poner password" 
+            />
+            <input type="file" />
+            
+
+            <!--number, date, radio, checkbox, email, tel -->
+        </fieldset>
+        <fieldset>
+            <legend>datos de envío</legend>
+
+            <select name="" id="">
+                <option value="">Seleccione</option>
+                <option value="es">España</option>
+                <option value="fr">Francia</option>
+            </select>
+
+            <textarea name="" id="" cols="50" rows="5"></textarea>
+
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Borrar" />
+            <button>Botón de Enviar</button>
+        </fieldset>
+      </form>
+    </body>
+    </html>
+</html>
